@@ -1,0 +1,11 @@
+C:\Projects\mars11LINQdemo\mars11LINQdemo\bin\Debug\netcoreapp2.1\mars11LINQdemo.deps.json
+C:\Projects\mars11LINQdemo\mars11LINQdemo\bin\Debug\netcoreapp2.1\mars11LINQdemo.runtimeconfig.json
+C:\Projects\mars11LINQdemo\mars11LINQdemo\bin\Debug\netcoreapp2.1\mars11LINQdemo.runtimeconfig.dev.json
+C:\Projects\mars11LINQdemo\mars11LINQdemo\bin\Debug\netcoreapp2.1\mars11LINQdemo.dll
+C:\Projects\mars11LINQdemo\mars11LINQdemo\bin\Debug\netcoreapp2.1\mars11LINQdemo.pdb
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.csprojAssemblyReference.cache
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.csproj.CoreCompileInputs.cache
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.AssemblyInfoInputs.cache
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.AssemblyInfo.cs
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.dll
+C:\Projects\mars11LINQdemo\mars11LINQdemo\obj\Debug\netcoreapp2.1\mars11LINQdemo.pdb
