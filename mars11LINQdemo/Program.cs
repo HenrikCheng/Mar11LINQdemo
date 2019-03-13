@@ -13,11 +13,6 @@ namespace mars11LINQdemo
                 new Book { Title = "Sagan om Ringen", PageCount = 700 },
                 new Book { Title = "Bilbo", PageCount = 250 },
             };
-            //Array.Sort(books);
-            //foreach (var book in books)
-            //{
-            //    Console.WriteLine(book.Title);
-            //}
 
             //Query syntax
             var longBooks = from b in books
@@ -26,7 +21,14 @@ namespace mars11LINQdemo
                             select b.PageCount;
 
             //method syntax
-            var longbooks2 = books.Where(b => b.PageCount > 300).OrderBy(b => b.Title).ToList();
+            int nr = 1;
+            var longbooks2 = books.Where(b => b.PageCount > 300).OrderBy(b => b.Title).Select(b => new
+            {
+                Index = nr++,
+                BookTitle = b.Title
+            }); //.ToList();
+            //Where filtrerar raderna
+            //Select väljer vilken del av informationen som ska synas
 
             //summa
             var sum = books.Sum(b => b.PageCount).ToString();
@@ -40,7 +42,7 @@ namespace mars11LINQdemo
 
             foreach (var item in longbooks2)
             {
-                Console.WriteLine(item.Title);
+                Console.WriteLine(item);
             }
         }
     }
